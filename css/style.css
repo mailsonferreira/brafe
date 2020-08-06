@@ -243,3 +243,87 @@ body {
     margin-bottom: 30px;
 
 }
+
+
+.assine {
+    background: #e7e4d8;
+    padding: 30px 0;
+}
+
+.assine-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.assine-new {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+
+.assine-info h2{
+    font-size: 2.25em;
+}
+
+.assine-info p{
+    font-size: 1.5em;
+}
+
+.assine form {
+    width: 460px;
+    margin: 0 10px;
+}
+
+.assine form label {
+    display: none;
+}
+
+.assine input {
+    width: 294px;
+    border: 3px solid;
+    margin: 0 -3px 0 0;
+    color: #252525;
+    background: none;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+}
+
+.assine button {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 140px;
+    padding: 13px 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.footer {
+    background: #d6d3c8;
+    padding: 40px 0 ;
+}
+
+.footer img {
+    height: 40px;
+}
+
+.footer p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+
+
+
