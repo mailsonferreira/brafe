@@ -182,3 +182,60 @@ body {
     color: rgb(109, 107, 107);
     transition: 200ms;
 }
+
+.locais{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+  
+}
+
+.locais h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.locais p {
+    max-width: 320px;
+    font-size: 1.125em;
+    line-height: 1.4em;
+    margin-bottom: 40px;
+}
+
+.locais a {
+    font-size: 1.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid;
+    color: #252525;
+    padding: 10px 20px;
+}
+
+.locais a:hover {
+    color: rgb(109, 107, 107);
+    transition: 200ms;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+
+}
