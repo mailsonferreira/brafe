@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #252525;
@@ -127,7 +128,6 @@ body {
      padding: 60px 0; 
      border-top: 3px solid #d6d3c8;
      border-bottom: 3px solid #d6d3c8;
-
 }
 
 .produtos-container {
@@ -325,5 +325,89 @@ footer {
 }
 
 
+@media (max-width: 939px) {
+  .sobre-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px;
+  }
+  .produtos-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 415px) {
+    html{
+        display: inline-flex;
+    }
+    body {
+        max-width: 100vw;
+    }
+    .intro {
+        width: 100vw;
+    }
+    .sobre-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .produtos-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .locais img{
+        width: 100vw;
+        
+    }
+    .container-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .assine-container{
+        max-width: 100vw;
+    }
+
+    .assine-new {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .assine form {
+        margin-top: 10px;
+        width:370px;
+    }
+
+    .assine button {
+        width: 294px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+
+}
 
 
